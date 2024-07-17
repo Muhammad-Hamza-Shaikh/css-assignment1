@@ -1,0 +1,45 @@
+.main{
+    border: dashed 10px blue;
+    border-radius: 20px;
+    height: 200px;
+    width: 550px;
+    margin-left: 450px;
+    margin-top: 100px;
+    padding-left: 40px;
+    background-color: aqua;
+}
+.head{
+    text-align: center;
+    color:slateblue;
+
+}
+.sub{
+    text-align: center;
+    font-size: 25px;
+    color:slateblue ;
+}
+.btn1, .btn2 {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: darkblue;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.3s, transform 0.3s; /* For smooth hover effect */
+}
+
+.btn1 a, .btn2 a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.btn1:hover, .btn2:hover {
+    background-color: darkcyan;
+    transform: scale(1.1); /* Slightly increase the size */
+}
+    .btn{
+        display: flex;
+        justify-content: center;
+        gap: 20px; /* Adds space between the buttons */
+        
+
+    }
